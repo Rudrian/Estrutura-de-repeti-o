@@ -1,0 +1,23 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Repeticao3 {
+
+	public static void main(String[] args) {
+	Scanner ler = new Scanner(System.in);
+	int numeroi;
+	
+	System.out.print("Digite um numero: ");
+	numeroi = ler.nextInt();
+	System.out.println("Numeros impares do intervalo de numeros de" +numeroi+ ":" );
+	
+    for(int i = 0; i <=numeroi; i++) {
+    	if (i%2!=0) {
+    
+    	System.out.print(i+ " ");
+    	ler.close();
+    }
+	}
+}
+}
